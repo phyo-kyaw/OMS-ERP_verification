@@ -1,0 +1,203 @@
+(SalesOrderItem){
+   job = 
+      (RecordRef){
+         name = None
+         _internalId = ""
+         _externalId = ""
+         _type = ""
+      }
+   item = 
+      (RecordRef){
+         name = None
+         _internalId = ""
+         _externalId = ""
+         _type = ""
+      }
+   quantityAvailable = None
+   quantityOnHand = None
+   quantity = None
+   units = 
+      (RecordRef){
+         name = None
+         _internalId = ""
+         _externalId = ""
+         _type = ""
+      }
+   inventoryDetail = 
+      (InventoryDetail){
+         nullFieldList = 
+            (NullField){
+               name[] = <empty>
+            }
+         inventoryAssignmentList = 
+            (InventoryAssignmentList){
+               inventoryAssignment[] = <empty>
+               _replaceAll = "false"
+            }
+         customForm = 
+            (RecordRef){
+               name = None
+               _internalId = ""
+               _externalId = ""
+               _type = ""
+            }
+      }
+   description = None
+   price = 
+      (RecordRef){
+         name = None
+         _internalId = ""
+         _externalId = ""
+         _type = ""
+      }
+   rate = None
+   serialNumbers = None
+   amount = None
+   isTaxable = None
+   commitInventory = 
+      (SalesOrderItemCommitInventory){
+         value = None
+      }
+   orderPriority = None
+   licenseCode = None
+   options = 
+      (CustomFieldList){
+         customField[] = <empty>
+      }
+   department = 
+      (RecordRef){
+         name = None
+         _internalId = ""
+         _externalId = ""
+         _type = ""
+      }
+   class = 
+      (RecordRef){
+         name = None
+         _internalId = ""
+         _externalId = ""
+         _type = ""
+      }
+   location = 
+      (RecordRef){
+         name = None
+         _internalId = ""
+         _externalId = ""
+         _type = ""
+      }
+   createPo = 
+      (SalesOrderItemCreatePo){
+         value = None
+      }
+   createdPo = 
+      (RecordRef){
+         name = None
+         _internalId = ""
+         _externalId = ""
+         _type = ""
+      }
+   altSalesAmt = None
+   createWo = None
+   poVendor = 
+      (RecordRef){
+         name = None
+         _internalId = ""
+         _externalId = ""
+         _type = ""
+      }
+   poCurrency = None
+   poRate = None
+   revRecSchedule = 
+      (RecordRef){
+         name = None
+         _internalId = ""
+         _externalId = ""
+         _type = ""
+      }
+   revRecStartDate = None
+   revRecTermInMonths = None
+   revRecEndDate = None
+   deferRevRec = None
+   isClosed = None
+   billingSchedule = 
+      (RecordRef){
+         name = None
+         _internalId = ""
+         _externalId = ""
+         _type = ""
+      }
+   fromJob = None
+   grossAmt = None
+   excludeFromRateRequest = None
+   isEstimate = None
+   line = None
+   percentComplete = None
+   costEstimateType = 
+      (ItemCostEstimateType){
+         value = None
+      }
+   costEstimate = None
+   quantityBackOrdered = None
+   quantityBilled = None
+   quantityCommitted = None
+   quantityFulfilled = None
+   quantityPacked = None
+   quantityPicked = None
+   tax1Amt = None
+   taxCode = 
+      (RecordRef){
+         name = None
+         _internalId = ""
+         _externalId = ""
+         _type = ""
+      }
+   taxRate1 = None
+   taxRate2 = None
+   giftCertFrom = None
+   giftCertRecipientName = None
+   giftCertRecipientEmail = None
+   giftCertMessage = None
+   giftCertNumber = None
+   shipGroup = None
+   itemIsFulfilled = None
+   shipAddress = 
+      (RecordRef){
+         name = None
+         _internalId = ""
+         _externalId = ""
+         _type = ""
+      }
+   shipMethod = 
+      (RecordRef){
+         name = None
+         _internalId = ""
+         _externalId = ""
+         _type = ""
+      }
+   vsoeSopGroup = 
+      (VsoeSopGroup){
+         value = None
+      }
+   vsoeIsEstimate = None
+   vsoePrice = None
+   vsoeAmount = None
+   vsoeAllocation = None
+   vsoeDeferral = 
+      (VsoeDeferral){
+         value = None
+      }
+   vsoePermitDiscount = 
+      (VsoePermitDiscount){
+         value = None
+      }
+   vsoeDelivered = None
+   expectedShipDate = None
+   chargeType = 
+      (ChargeRuleType){
+         value = None
+      }
+   customFieldList = 
+      (CustomFieldList){
+         customField[] = <empty>
+      }
+ }

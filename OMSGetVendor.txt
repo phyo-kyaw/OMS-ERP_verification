@@ -1,0 +1,8 @@
+OMS = OMSOperation()
+OMS.getConnected()
+countRec = OMS.getCount(query[item], date_start.isoformat(' '), date_end.isoformat(' '))
+if countRec <> 0 :
+	dividerForDay = ceildiv(int(countRec), 150)
+	OMS.getRecords(query[item], date_start.isoformat(' '), date_end.isoformat(' '), dividerForDay, fileOMS[item])
+OMS.getDisonnected()
+date_start = date_end

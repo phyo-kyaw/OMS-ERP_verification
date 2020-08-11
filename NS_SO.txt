@@ -1,0 +1,418 @@
+(SalesOrder){
+   nullFieldList = 
+      (NullField){
+         name[] = <empty>
+      }
+   createdDate = None
+   customForm = 
+      (RecordRef){
+         name = None
+         _internalId = ""
+         _externalId = ""
+         _type = ""
+      }
+   entity = 
+      (RecordRef){
+         name = None
+         _internalId = ""
+         _externalId = ""
+         _type = ""
+      }
+   job = 
+      (RecordRef){
+         name = None
+         _internalId = ""
+         _externalId = ""
+         _type = ""
+      }
+   currency = 
+      (RecordRef){
+         name = None
+         _internalId = ""
+         _externalId = ""
+         _type = ""
+      }
+   drAccount = 
+      (RecordRef){
+         name = None
+         _internalId = ""
+         _externalId = ""
+         _type = ""
+      }
+   fxAccount = 
+      (RecordRef){
+         name = None
+         _internalId = ""
+         _externalId = ""
+         _type = ""
+      }
+   tranDate = None
+   tranId = None
+   source = None
+   createdFrom = 
+      (RecordRef){
+         name = None
+         _internalId = ""
+         _externalId = ""
+         _type = ""
+      }
+   orderStatus = 
+      (SalesOrderOrderStatus){
+         value = None
+      }
+   opportunity = 
+      (RecordRef){
+         name = None
+         _internalId = ""
+         _externalId = ""
+         _type = ""
+      }
+   salesRep = 
+      (RecordRef){
+         name = None
+         _internalId = ""
+         _externalId = ""
+         _type = ""
+      }
+   contribPct = None
+   partner = 
+      (RecordRef){
+         name = None
+         _internalId = ""
+         _externalId = ""
+         _type = ""
+      }
+   salesGroup = 
+      (RecordRef){
+         name = None
+         _internalId = ""
+         _externalId = ""
+         _type = ""
+      }
+   syncSalesTeams = None
+   leadSource = 
+      (RecordRef){
+         name = None
+         _internalId = ""
+         _externalId = ""
+         _type = ""
+      }
+   startDate = None
+   endDate = None
+   otherRefNum = None
+   memo = None
+   salesEffectiveDate = None
+   excludeCommission = None
+   totalCostEstimate = None
+   estGrossProfit = None
+   estGrossProfitPercent = None
+   exchangeRate = None
+   promoCode = 
+      (RecordRef){
+         name = None
+         _internalId = ""
+         _externalId = ""
+         _type = ""
+      }
+   currencyName = None
+   discountItem = 
+      (RecordRef){
+         name = None
+         _internalId = ""
+         _externalId = ""
+         _type = ""
+      }
+   discountRate = None
+   isTaxable = None
+   taxItem = 
+      (RecordRef){
+         name = None
+         _internalId = ""
+         _externalId = ""
+         _type = ""
+      }
+   taxRate = None
+   toBePrinted = None
+   toBeEmailed = None
+   email = None
+   toBeFaxed = None
+   fax = None
+   messageSel = 
+      (RecordRef){
+         name = None
+         _internalId = ""
+         _externalId = ""
+         _type = ""
+      }
+   message = None
+   transactionBillAddress = 
+      (BillAddress){
+         billAttention = None
+         billAddressee = None
+         billPhone = None
+         billAddr1 = None
+         billAddr2 = None
+         billAddr3 = None
+         billCity = None
+         billState = None
+         billZip = None
+         billCountry = 
+            (Country){
+               value = None
+            }
+      }
+   billAddressList = 
+      (RecordRef){
+         name = None
+         _internalId = ""
+         _externalId = ""
+         _type = ""
+      }
+   billAddress = None
+   transactionShipAddress = 
+      (ShipAddress){
+         shipAttention = None
+         shipAddressee = None
+         shipPhone = None
+         shipAddr1 = None
+         shipAddr2 = None
+         shipAddr3 = None
+         shipCity = None
+         shipState = None
+         shipZip = None
+         shipCountry = 
+            (Country){
+               value = None
+            }
+         shipIsResidential = None
+      }
+   shipAddressList = 
+      (RecordRef){
+         name = None
+         _internalId = ""
+         _externalId = ""
+         _type = ""
+      }
+   shipAddress = None
+   fob = None
+   shipDate = None
+   actualShipDate = None
+   shipMethod = 
+      (RecordRef){
+         name = None
+         _internalId = ""
+         _externalId = ""
+         _type = ""
+      }
+   shippingCost = None
+   shippingTax1Rate = None
+   isMultiShipTo = None
+   shippingTax2Rate = None
+   shippingTaxCode = 
+      (RecordRef){
+         name = None
+         _internalId = ""
+         _externalId = ""
+         _type = ""
+      }
+   handlingTaxCode = 
+      (RecordRef){
+         name = None
+         _internalId = ""
+         _externalId = ""
+         _type = ""
+      }
+   handlingTax1Rate = None
+   handlingTax2Rate = None
+   handlingCost = None
+   trackingNumbers = None
+   linkedTrackingNumbers = None
+   shipComplete = None
+   paymentMethod = 
+      (RecordRef){
+         name = None
+         _internalId = ""
+         _externalId = ""
+         _type = ""
+      }
+   shopperIpAddress = None
+   saveOnAuthDecline = None
+   creditCard = 
+      (RecordRef){
+         name = None
+         _internalId = ""
+         _externalId = ""
+         _type = ""
+      }
+   revenueStatus = 
+      (RevenueStatus){
+         value = None
+      }
+   recognizedRevenue = None
+   deferredRevenue = None
+   revRecOnRevCommitment = None
+   revCommitStatus = 
+      (RevenueCommitStatus){
+         value = None
+      }
+   ccNumber = None
+   ccExpireDate = None
+   ccName = None
+   ccStreet = None
+   ccZipCode = None
+   payPalStatus = None
+   creditCardProcessor = 
+      (RecordRef){
+         name = None
+         _internalId = ""
+         _externalId = ""
+         _type = ""
+      }
+   payPalTranId = None
+   ccApproved = None
+   getAuth = None
+   authCode = None
+   ccAvsStreetMatch = 
+      (AvsMatchCode){
+         value = None
+      }
+   ccAvsZipMatch = 
+      (AvsMatchCode){
+         value = None
+      }
+   ccSecurityCodeMatch = 
+      (AvsMatchCode){
+         value = None
+      }
+   altSalesTotal = None
+   ignoreAvs = None
+   paymentEventResult = 
+      (TransactionPaymentEventResult){
+         value = None
+      }
+   paymentEventHoldReason = 
+      (TransactionPaymentEventHoldReason){
+         value = None
+      }
+   paymentEventType = 
+      (TransactionPaymentEventType){
+         value = None
+      }
+   paymentEventDate = None
+   paymentEventUpdatedBy = None
+   subTotal = None
+   discountTotal = None
+   taxTotal = None
+   altShippingCost = None
+   altHandlingCost = None
+   total = None
+   revRecSchedule = 
+      (RecordRef){
+         name = None
+         _internalId = ""
+         _externalId = ""
+         _type = ""
+      }
+   revRecStartDate = None
+   revRecEndDate = None
+   paypalAuthId = None
+   balance = None
+   paypalProcess = None
+   billingSchedule = 
+      (RecordRef){
+         name = None
+         _internalId = ""
+         _externalId = ""
+         _type = ""
+      }
+   ccSecurityCode = None
+   threeDStatusCode = None
+   class = 
+      (RecordRef){
+         name = None
+         _internalId = ""
+         _externalId = ""
+         _type = ""
+      }
+   department = 
+      (RecordRef){
+         name = None
+         _internalId = ""
+         _externalId = ""
+         _type = ""
+      }
+   subsidiary = 
+      (RecordRef){
+         name = None
+         _internalId = ""
+         _externalId = ""
+         _type = ""
+      }
+   intercoTransaction = 
+      (RecordRef){
+         name = None
+         _internalId = ""
+         _externalId = ""
+         _type = ""
+      }
+   intercoStatus = 
+      (IntercoStatus){
+         value = None
+      }
+   debitCardIssueNo = None
+   lastModifiedDate = None
+   location = 
+      (RecordRef){
+         name = None
+         _internalId = ""
+         _externalId = ""
+         _type = ""
+      }
+   pnRefNum = None
+   status = None
+   tax2Total = None
+   terms = 
+      (RecordRef){
+         name = None
+         _internalId = ""
+         _externalId = ""
+         _type = ""
+      }
+   validFrom = None
+   vatRegNum = None
+   giftCertApplied = None
+   tranIsVsoeBundle = None
+   vsoeAutoCalc = None
+   syncPartnerTeams = None
+   salesTeamList = 
+      (SalesOrderSalesTeamList){
+         salesTeam[] = <empty>
+         _replaceAll = "true"
+      }
+   partnersList = 
+      (SalesOrderPartnersList){
+         partners[] = <empty>
+         _replaceAll = "true"
+      }
+   giftCertRedemptionList = 
+      (GiftCertRedemptionList){
+         giftCertRedemption[] = <empty>
+         _replaceAll = "true"
+      }
+   itemList = 
+      (SalesOrderItemList){
+         item[] = <empty>
+         _replaceAll = "true"
+      }
+   shipGroupList = 
+      (SalesOrderShipGroupList){
+         shipGroup[] = <empty>
+         _replaceAll = "true"
+      }
+   customFieldList = 
+      (CustomFieldList){
+         customField[] = <empty>
+      }
+   _internalId = ""
+   _externalId = ""
+ }
